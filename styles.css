@@ -1,0 +1,69 @@
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: #FEF9F8;
+   
+}
+
+.navbar{
+   
+    padding: 8px 15px 8px 15px;
+    
+    
+    
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: end
+}
+
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: #0D0D0D;
+}
+
+.social-links{
+    display: flex;
+    justify-content: start;
+    list-style: none;
+   
+    
+}
+
+.social-icon a{
+    padding-left: 5px;
+    text-decoration: none;
+    color: #0D0D0D;
+}
+
+@media screen and (max-width:800px) {
+    .mobile-social-links{
+        display: block;
+    }
+    .social-links{
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: start;
+        padding: 8px;
+    }
+
+    .navbar-brand{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:801px) {
+    .mobile-social-links{
+        display: none;
+    }
+    .social-links{
+        display: flex;
+    }
+}
