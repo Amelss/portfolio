@@ -4,12 +4,8 @@ body{
    
 }
 
-.navbar{
-   
-    padding: 8px 15px 8px 15px;
-    
-    
-    
+nav{
+    background-color: #f9f2f1;
 }
 
 .navbar-collapse{
@@ -27,13 +23,6 @@ body{
     color: #0D0D0D;
 }
 
-.social-links{
-    display: flex;
-    justify-content: start;
-    list-style: none;
-    align-items: center;
-    
-}
 
 .social-icon a{
     padding-left: 5px;
@@ -41,13 +30,26 @@ body{
     color: #0D0D0D;
 }
 
+.portrait{
+    width: 400px;
+    margin-bottom: 15px;
+    margin-top: -15px;
+    margin-left: -20px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding-right: 10px;
+}
+
+.portrait-bg{
+    background-color: #F6D0B3;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin-left: -10px;
+    margin-right: -50px;
+}
+
+
 @media screen and (max-width:800px) {
-    .mobile-social-links{
-        display: block;
-    }
-    .social-links{
-        display: none;
-    }
 
     .mobile-nav {
         display: flex;
@@ -60,14 +62,27 @@ body{
         margin-right: 0;
         
     }
-    
-}
 
-@media screen and (min-width:801px) {
-    .mobile-social-links{
-        display: none;
+    h1{
+        text-align: center;
     }
-    .social-links{
-        display: flex;
+    
+    .portrait{
+        width: 300px;
     }
+
+   .intro-text{
+    text-align: center;
+   
+   }
+   .portrait-bg{
+    background-color: #FEF9F8;
+    margin: 0;
+    padding: 0;
+   }
+
+   .portrait{
+    margin: 0;
+    padding-right: 0;
+   }
 }
