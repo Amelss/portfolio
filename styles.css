@@ -78,6 +78,11 @@ nav{
   left: 0;
   right: 0;
   bottom: 0;
+  color: #F6D0B3;
+}
+
+.new{
+    color: #EF9273;;
 }
 
 .logos{
@@ -86,6 +91,35 @@ nav{
     margin-top: 5px;
     padding-right: 10px;
 }
+
+.sub-heading{
+    font-weight: 800;
+}
+
+.sub-heading-word{
+    
+    color: #EF9273;
+}
+
+
+
+.custom-tab.active{
+    color: #EF9273 !important;
+}
+
+.project-picture{
+    height: 288px;
+}
+.project-title{
+   color: #EF9273;
+  
+}
+
+.card{
+    width: 18rem;
+}
+
+
 @media screen and (max-width:800px) {
 
     .mobile-nav {
@@ -146,4 +180,19 @@ nav{
     margin-right: 15px;
     padding-right: 0;
 }
+
+
+.projects-list{
+    text-align: center;
+}
+
+.card{
+    width: auto;
+    
+}
+
+.project-picture{
+    height: auto;
+}
+
 }
