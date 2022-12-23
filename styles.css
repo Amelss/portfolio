@@ -109,6 +109,11 @@ nav{
 
 .project-picture{
     height: 288px;
+  
+}
+
+.caed{
+    width: 288px;
 }
 .project-title{
    color: #EF9273;
@@ -193,6 +198,10 @@ nav{
 
 .project-picture{
     height: auto;
+}
+
+.caed{
+    width:320px;
 }
 
 }
