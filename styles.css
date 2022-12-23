@@ -30,23 +30,15 @@ nav{
     color: #0D0D0D;
 }
 
-.portrait{
-    width: 400px;
-    margin-bottom: 15px;
-    margin-top: -15px;
-    margin-left: -20px;
-    border-top-left-radius: 60px;
-    border-bottom-right-radius: 60px;
-    padding-right: 10px;
+.intro-name{
+    text-align: left;
 }
 
-.portrait-bg{
-    background-color: #F6D0B3;
-    border-top-left-radius: 60px;
-    border-bottom-right-radius: 60px;
-    margin-left: -10px;
-    margin-right: -50px;
+.portrait{
+    width: 400px;
+    padding-top: 30px;
 }
+
 
 .content-sections{
     background-color: #EF9273;
@@ -67,6 +59,9 @@ nav{
      width: 450px;
 }
 
+.about-text{
+    font-size: 20px;
+}
 .headers{
     position: relative;
 }
@@ -101,7 +96,9 @@ nav{
     color: #EF9273;
 }
 
-
+.image{
+    margin-top: 50px;
+}
 
 .custom-tab.active{
     color: #EF9273 !important;
@@ -122,6 +119,11 @@ nav{
 
 .card{
     width: 18rem;
+}
+
+button{
+   background-color: #F6D0B3;
+   font-weight: 900;
 }
 
 
@@ -145,21 +147,19 @@ nav{
     
     .portrait{
         width: 300px;
+        text-align: center;
+        margin: 0;
+        padding-right: 0;
+        padding-top: 10px;
+        border-radius: 50px;
+        
+
     }
 
-   .intro-text{
+   .intro-text, .intro-name{
     text-align: center;
+    margin: 0;
    
-   }
-   .portrait-bg{
-    background-color: #FEF9F8;
-    margin: 0;
-    padding: 0;
-   }
-
-   .portrait{
-    margin: 0;
-    padding-right: 0;
    }
 
    .about-title{
@@ -198,10 +198,6 @@ nav{
 
 .project-picture{
     height: auto;
-}
-
-.caed{
-    width:320px;
 }
 
 }
